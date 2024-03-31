@@ -36,3 +36,9 @@ img {
 address {
   font-style: normal;
 }
+
+.container {
+  width: 1280px;
+  padding: 0 16px;
+  margin: 0 auto;
+}

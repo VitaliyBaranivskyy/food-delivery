@@ -6,34 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Food Delivery</title>
 
-
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
         integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="./css/styles.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@400;500;700&display=swap"
-        rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
 </head>
 
 <body>
-    <header>
-        <a href=""><img src="./images/logo.png" alt="logo" width="66" height="52" /></a>
+    <header class="header">
+        <div class="conteiner">
+        <a href=""><img  class="logo" src="./images/logo.png" alt="logo" width="66" height="52" /></a>
         <nav>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Aboout</a></li>
-                <li><a href="">Servise</a></li>
-                <li><a href="">Menu</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a class="nav-link" href="">Home</a></li>
+                <li><a class="nav-link" href="">Aboout</a></li>
+                <li><a class="nav-link" href="">Servise</a></li>
+                <li><a class="nav-link" href="">Menu</a></li>
+                <li><a class="nav-link" href="">Contact</a></li>
             </ul>
         </nav>
         <button>Order Now</button>
+    </div>
     </header>
 
     <main>
@@ -77,15 +78,16 @@
         </section>
 
         <section>
-            <h2>Some of Our Favorites</h2>
-            <p>Looking for something delicious? </p>
-            <ul>
-                <li><img src="./images/gamburger.png" alt="gamburger"></li>
-                <li><img src="./images/pasta.png" alt="pasta"></li>
-                <li><img src="./images/pizza.png" alt="pizza"></li>
-                <li><img src="./images/chicken.png" alt="chicken"></li>
-                <li><img src="./images/salat.png" alt="salat"></li>
-                <li><img src="/images/borshch.png" alt="borshch"></li>
+            <div class="container"></div>
+            <h2 class="favorite-title">Some of Our Favorites</h2>
+            <p class="favorite-text">Looking for something delicious? </p>
+            <ul class="favorite-list">
+                <li class="favprite-item"><img src="./images/gamburger.png" alt="gamburger"></li>
+                <li class="favprite-item"><img src="./images/pasta.png" alt="pasta"></li>
+                <li class="favprite-item"><img src="./images/pizza.png" alt="pizza"></li>
+                <li class="favprite-item"><img src="./images/chicken.png" alt="chicken"></li>
+                <li class="favprite-item"><img src="./images/salat.png" alt="salat"></li>
+                <li class="favprite-item"><img src="./images/borshch.png" alt="borshch"></li>
             </ul>
         </section>
 
@@ -117,36 +119,37 @@
                 <input placeholder="Enter your email" type="email"><button type="submit">Subscribe</button>
             </form>
             <img src="./images/banan.png" alt="banan">
-        </section>
+        </section>       
+    </main>
 
-        <footer>
-            <a href=""><img src="./images/logo.png" alt="logo" width="66" height="52" /></a>
-            <nav>
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Aboout</a></li>
-                    <li><a href="">Servise</a></li>
-                    <li><a href="">Menu</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </nav>
-
+    <footer>
+        <a href=""><img src="./images/logo.png" alt="logo" width="66" height="52" /></a>
+        <nav>
             <ul>
-                <li><a href="">Privacy Policy</a></li>
-                <li><a href="">Terms of Service</a></li>
-                <li><a href="">Cookies Settings</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Aboout</a></li>
+                <li><a href="">Servise</a></li>
+                <li><a href="">Menu</a></li>
+                <li><a href="">Contact</a></li>
             </ul>
+        </nav>
 
-            <h3>Subscribe</h3>
+        <ul>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Terms of Service</a></li>
+            <li><a href="">Cookies Settings</a></li>
+        </ul>
 
-        </footer>
+        <h3>Subscribe</h3>        
         <form>
             <input placeholder="Enter your email" type="email"><button type="submit">Subscribe</button>
         </form>
         <p>By subscribing you agree to with our <a href="">Privacy Policy</a></p>
         <p>2022 FoodSta. All right reserved.</p>
+    
 
-    </main>
+    </footer>
+  
 </body>
 
 </html>
