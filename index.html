@@ -14,142 +14,202 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
 </head>
 
 <body>
+
+    <!-- ---------------Header-------------------------- -->
     <header class="header">
-        <div class="conteiner">
-        <a href=""><img  class="logo" src="./images/logo.png" alt="logo" width="66" height="52" /></a>
-        <nav>
-            <ul>
-                <li><a class="nav-link" href="">Home</a></li>
-                <li><a class="nav-link" href="">Aboout</a></li>
-                <li><a class="nav-link" href="">Servise</a></li>
-                <li><a class="nav-link" href="">Menu</a></li>
-                <li><a class="nav-link" href="">Contact</a></li>
-            </ul>
-        </nav>
-        <button>Order Now</button>
-    </div>
+        <div class="container  header-container">
+            <a class="logo" href=""><img src="./images/logo.png" alt="logo" width="66" height="52" /></a>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-link"><a href="">Home</a></li>
+                    <li class="nav-link"><a href="">Aboout</a></li>
+                    <li class="nav-link"><a href="">Servise</a></li>
+                    <li class="nav-link"><a href="">Menu</a></li>
+                    <li class="nav-link"><a href="">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="header-btn" type="button">Order Now</button>
+        </div>
     </header>
 
     <main>
-        <section>
-            <h1>Enjoy Your Favorite Food From Anywhere</h1>
-            <p>
-                With just a few clicks, you can have your favorite meals delivered
-                straight to your doorstep, no matter where you are. Order now and
-                enjoy a hassle-free and delicious meal from the comfort of your own
-                home.
-            </p>
-            <button>Order Now</button>
-            <img src="./images/hero.png" alt="hero" />
+        <!-- ---------------Hero-------------------------- -->
+        <section class="hero">
+            <div class="container hero-container">
+                <div class="hero-wrapper">
+                    <h1 class="title">Enjoy Your Favorite Food From Anywhere</h1>
+                    <p class="hero-text">
+                        With just a few clicks, you can have your favorite meals delivered
+                        straight to your doorstep, no matter where you are. Order now and
+                        enjoy a hassle-free and delicious meal from the comfort of your own
+                        home.
+                    </p>
+                    <button class="hero-btn" type="button">Order Now</button>
+                </div>
+
+                <img src="./images/hero.png" alt="hero" />
+
+            </div>
         </section>
 
-        <section>
-            <img src="./images/aple.png" alt="apple" width="396" height="502" />
-            <h2>What’s Special About Our Offerings</h2>
-            <p>With our platform, you can browse through a diverse selection of cuisines and local restaurants, and
-                choose from a variety of dishes that cater to your specific taste buds.
-            </p>
-            <ul>
-                <li>
-                    <img src="./images/delivery.png" alt="Delivery">
-                    <h3>
-                        Fasest Delivery
-                    </h3>
-                    <p>Our advanced logistics system and dedicated delivery partners ensure that your meals are
-                        delivered to you within 30-minutes.</p>
-                </li>
-                <li>
-                    <img src="./images/order.png" alt="Order">
-                    <h3>
-                        Easy To Order
-                    </h3>
-                    <p>You can browse through a wide variety of cuisines and restaurants, select your favorite meals,
-                        and place your order in just a few clicks.</p>
-                </li>
-            </ul>
-            <button type="button">Order Now</button>
+
+        <!-- ---------------Offering-------------------------- -->
+
+        <section class="Offering">
+            <div class="container Offering-container">
+                <img src="./images/aple.png" alt="apple" width="396" height="502" />
+                <div class="Offering-text-wrap">
+                    <h2 class="Offering-title">What’s Special About Our Offerings</h2>
+                    <p class="Offering-text">With our platform, you can browse through a diverse selection of cuisines
+                        and
+                        local restaurants, and
+                        choose from a variety of dishes that cater to your specific taste buds.
+                    </p>
+                    <ul class="Offering-list">
+                        <li class="Offering-item">
+                            <img src="./images/delivery.png" alt="Delivery">
+                            <h3 class="Offering-subtitle">
+                                Fasest Delivery
+                            </h3>
+                            <p class="Offering-desc">Our advanced logistics system and dedicated delivery partners
+                                ensure
+                                that your meals are
+                                delivered to you within 30-minutes.</p>
+                        </li>
+                        <li class="Offering-item">
+                            <img src="./images/order.png" alt="Order">
+                            <h3 class="offering-subtitle">
+                                Easy To Order
+                            </h3>
+                            <p class="Offering-desc">You can browse through a wide variety of cuisines and restaurants,
+                                select your favorite meals,
+                                and place your order in just a few clicks.</p>
+                        </li>
+                    </ul>
+                    <button class="Offering-btn" type="button">Order Now</button>
+                </div>
+
+            </div>
         </section>
 
-        <section>
-            <div class="container"></div>
-            <h2 class="favorite-title">Some of Our Favorites</h2>
-            <p class="favorite-text">Looking for something delicious? </p>
-            <ul class="favorite-list">
-                <li class="favprite-item"><img src="./images/gamburger.png" alt="gamburger"></li>
-                <li class="favprite-item"><img src="./images/pasta.png" alt="pasta"></li>
-                <li class="favprite-item"><img src="./images/pizza.png" alt="pizza"></li>
-                <li class="favprite-item"><img src="./images/chicken.png" alt="chicken"></li>
-                <li class="favprite-item"><img src="./images/salat.png" alt="salat"></li>
-                <li class="favprite-item"><img src="./images/borshch.png" alt="borshch"></li>
-            </ul>
+        <!-- ---------------favorite-------------------------- -->
+        <section class="favorite">
+            <div class="container favorite-container">
+                <h2 class="favorite-title">Some of Our Favorites</h2>
+                <p class="favorite-text">Looking for something delicious? </p>
+                <ul class="favorite-list">
+                    <li class="favorite-item"><img src="./images/gamburger.png" alt="gamburger"></li>
+                    <li class="favorite-item"><img src="./images/pasta.png" alt="pasta"></li>
+                    <li class="favorite-item"><img src="./images/pizza.png" alt="pizza"></li>
+                    <li class="favorite-item"><img src="./images/chicken.png" alt="chicken"></li>
+                    <li class="favorite-item"><img src="./images/salat.png" alt="salat"></li>
+                    <li class="favorite-item"><img src="./images/borshch.png" alt="borshch"></li>
+                </ul>
+            </div>
         </section>
 
-        <section>
-            <h2>What our Customers Say</h2>
-            <p>Don't just take our word for it - see what our satisfied customers have to say</p>
-            <ul>
-                <li>
-                    <p>“The Best app I have used to order food in a while, so many options to choose from too, I would
-                        recommend to a freind, No questions asked”</p>
-                    <img src="./images/man.png" alt="man">
-                    <h3>Sumith Shah</h3>
-                    <p>Some Dude</p>
-                </li>
-                <li>
-                    <p>“The ease with which I can just go in and order what i want was amazing, It has been a very
-                        pleasant experience ordering from this app”</p>
-                    <img src="./images/girl.png" alt="">
-                    <h3>Sumith Shah</h3>
-                    <p>Some Dude</p>
-                </li>
-            </ul>
+        <!-- ---------------feedback-------------------------- -->
+        <section class="feedback">
+            <div class="container feedback-container">
+                <h2 class="feedback-title">What our Customers Say</h2>
+                <p class="feedback-text">Don't just take our word for it - see what our satisfied customers have to say
+                </p>
+                <ul class="feedback-list">
+                    <li class="feedback-list-item">
+                        <p class="list-item-text">“The Best app I have used to order food in a while, so many options to
+                            choose from too, I would
+                            recommend to a freind, No questions asked”</p>
+                        <div class="some">
+                            <img src="./images/man.png" width="48" height="48" alt="Some Dude">
+                            <div class="some-dube">
+                                <h3 class="some-name">Sumith Shah</h3>
+                                <p class="some-dube-text">Some Dude</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="feedback-list-item">
+                        <p class="list-item-text">“The ease with which I can just go in and order what i want was
+                            amazing, It has been a very
+                            pleasant experience ordering from this app”</p>
+                        <div class="some">
+                            <img src="./images/girl.png" width="48" height="48" alt="Some Dude">
+                            <div class="some-dube">
+                                <h3 class="some-name">Sumith Shah</h3>
+                                <p class="some-dube-text">Some Dude</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </section>
 
-        <section>
-            <h2>Subscribe To Get Special Offers</h2>
-            <p>Order now and receive 10% off your first meal with Enjoy Your Favorite Food From Anywhere. </p>
-            <form>
-                <input placeholder="Enter your email" type="email"><button type="submit">Subscribe</button>
-            </form>
-            <img src="./images/banan.png" alt="banan">
-        </section>       
+        <!-- ---------------Subscribe-------------------------- -->
+
+        <section class="subscribe">
+            <div class="container subscribe-container">
+                <div class="subscribe-wrapper">
+                    <h2 class="subscribe-title">Subscribe To Get Special Offers</h2>
+                    <p class="subscribe-text">Order now and receive 10% off your first meal with Enjoy Your Favorite
+                        Food
+                        From
+                        Anywhere. </p>
+                    <form>
+                        <input class="subscribe-input" placeholder="Enter your email" type="email">
+                        <button class="subscribe-btn" type="submit">Subscribe</button>
+                    </form>
+                </div>
+                <img src="./images/banan.png" width="608" height="266" alt="banan">
+            </div>
+        </section>
     </main>
 
-    <footer>
-        <a href=""><img src="./images/logo.png" alt="logo" width="66" height="52" /></a>
-        <nav>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Aboout</a></li>
-                <li><a href="">Servise</a></li>
-                <li><a href="">Menu</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-        </nav>
+    <!-- ---------------Footer-------------------------- -->
+    <footer class="footer">
+        <div class="container footer-container">
 
-        <ul>
-            <li><a href="">Privacy Policy</a></li>
-            <li><a href="">Terms of Service</a></li>
-            <li><a href="">Cookies Settings</a></li>
-        </ul>
+            <div class="upper-cont">
 
-        <h3>Subscribe</h3>        
-        <form>
-            <input placeholder="Enter your email" type="email"><button type="submit">Subscribe</button>
-        </form>
-        <p>By subscribing you agree to with our <a href="">Privacy Policy</a></p>
-        <p>2022 FoodSta. All right reserved.</p>
-    
+                <div class="nav-cont">
+                    <a class="footer-logo"><img src="./images/logo.png" alt="logo" width="66" height="52" /></a>
 
+                    <nav class="footer-nav">
+                        <ul class="nav-list">
+                            <li><a class="nav-list-item" href="">Home</a></li>
+                            <li><a class="nav-list-item" href="">Aboout</a></li>
+                            <li><a class="nav-list-item" href="">Servise</a></li>
+                            <li><a class="nav-list-item" href="">Menu</a></li>
+                            <li><a class="nav-list-item" href="">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="footer-subscribe-container">
+                    <h3 class="footer-subscribe-title">Subscribe</h3>
+                    <form>
+                        <input class="footer-subscribe-input" placeholder="Enter your email" type="email">
+                        <button class="footer-subscribe-btn" type="submit">Subscribe</button>
+                    </form>
+                    <p class="footer-subscribe-text">By subscribing you agree to with our
+                        <a class="footer-subscribe-link" href="">Privacy Policy</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="policy">
+                <ul class="policy-list">
+                    <li class="policy-list-item"><a href="">Privacy Policy</a></li>
+                    <li class="policy-list-item"><a href="">Terms of Service</a></li>
+                    <li class="policy-list-item"><a href="">Cookies Settings</a></li>
+                </ul>
+                <p class="policy-text">2022 FoodSta. All right reserved.</p>
+            </div>
+        </div>
     </footer>
-  
+
 </body>
 
 </html>
