@@ -502,3 +502,50 @@ address {
 .modal-close-btn:focus > .modal-close-icon {
   fill: #fff;
 }
+
+.modal-fild:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.modal-label {
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.4;
+  margin-bottom: 2px;
+}
+.modal-input {
+  border: 1px solid rgba(18, 18, 18, 0.12);
+  border-radius: 30px;
+  width: 100%;
+  height: 48px;
+  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #fff;
+  outline: transparent;
+  padding-left: 12px;
+}
+.modal-send-btn {
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #7eb101;
+  border-radius: 30px;
+  padding: 10px 20px;
+  width: 106px;
+  height: 40px;
+  background: #fff;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #2c2c2c;
+  margin-top: 32px;
+}
+
+.modal-input:focus {
+  border: 3px solid #bbf330;
+  border-color: ;
+}
+
+.form-one {
+  width: 100%;
+  height: 100%;
+}
